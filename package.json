@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rain",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.3.3"
+  }
 }
