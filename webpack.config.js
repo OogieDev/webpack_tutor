@@ -1,5 +1,4 @@
 const path = require('path');
-const caseSensitivePathsWebpackPlugin = require('case-sensitive-paths-webpack-plugin');
 
 module.exports = {
 
