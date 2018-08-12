@@ -63,36 +63,24 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
 /***/ (function(module, exports) {
 
-console.log('b');
+console.log('module.js');
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
-
-console.log('c');
-
-/***/ }),
-/* 2 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__b__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__b___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__b__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__c__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__c___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__c__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Module__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Module___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Module__);
 
-
-
-console.log('a');
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.js.map

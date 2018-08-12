@@ -1,0 +1,14 @@
+{
+  "name": "webpack-lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rain",
+  "license": "ISC",
+  "devDependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.1.2"
+  }
+}

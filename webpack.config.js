@@ -1,16 +1,19 @@
 const path = require('path');
-
+const caseSensitivePathsWebpackPlugin = require('case-sensitive-paths-webpack-plugin');
 
 module.exports = {
 
     context: path.resolve(__dirname, 'src'),
 
-    entry: './a',
+    entry: './init.js',
 
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
 
-    devtool: 'source-map'
-};
+    plugins: [
+        new caseSensitivePathsWebpackPlugin()
+    ]
+
+ };
