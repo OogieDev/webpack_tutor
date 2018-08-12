@@ -1,5 +1,9 @@
-function StartApplication(someParams) {
-    console.log(someParams);
-}
+function init() {
 
-StartApplication('hello world');
+    if(!PRODUCTION){
+        console.log(VERSION);
+    }
+
+    console.log('html5', HTML5_SUPPORT);
+
+}
