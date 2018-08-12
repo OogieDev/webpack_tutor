@@ -63,32 +63,36 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = action;
-function action() {
-    console.log('Application action');
-}
+console.log('b');
 
 /***/ }),
-/* 1 */,
-/* 2 */,
-/* 3 */
+/* 1 */
+/***/ (function(module, exports) {
+
+console.log('c');
+
+/***/ }),
+/* 2 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_application__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__b__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__b___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__b__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__c__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__c___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__c__);
 
 
-__WEBPACK_IMPORTED_MODULE_0__components_application__["a" /* action */]();
-console.log('You are on the Home Page');
+
+console.log('a');
 
 /***/ })
 /******/ ]);
+//# sourceMappingURL=bundle.js.map
