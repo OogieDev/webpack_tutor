@@ -7,8 +7,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rain",
-  "license": "ISC",
-  "devDependencies": {
-    "case-sensitive-paths-webpack-plugin": "^2.1.2"
-  }
+  "license": "ISC"
 }
