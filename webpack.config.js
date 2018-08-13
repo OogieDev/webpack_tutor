@@ -4,12 +4,24 @@ module.exports = {
 
     context: path.resolve(__dirname, 'src'),
 
-    entry: './init.js',
-
-    output: {
-        filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist')
+    entry: {
+        index: './init',
+        vendor: ['jquery']
     },
 
 
- };
+    output: {
+        filename: '[name].js',
+        path: path.resolve(__dirname, 'dist')
+    },
+
+    module: {
+        rules: [
+            {
+                test: require.resolve('jquery'),
+                loader: 'expose-loader?$'
+            }
+        ]
+    }
+
+};
