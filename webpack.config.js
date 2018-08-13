@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlPlugin = require('html-webpack-plugin');
 
 module.exports = {
 
@@ -11,5 +12,11 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
 
+    plugins: [
+        new HtmlPlugin({
+            title: 'Webpack dev server'
+        })
+    ]
 
- };
+
+};
