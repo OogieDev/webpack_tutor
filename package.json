@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rain",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.0.8",
+    "typescript": "^2.2.1"
+  }
 }

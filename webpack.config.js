@@ -2,14 +2,25 @@ const path = require('path');
 
 module.exports = {
 
-    context: path.resolve(__dirname, 'src'),
+    context: path.join(__dirname, 'src'),
+    entry: './index',
 
-    entry: './init.js',
+    resolve: {
+        extensions: ['.ts', '.tsx', '.js']
+    },
 
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.join(__dirname, 'dist')
     },
 
+    module: {
+        rules: [
+            {
+                test: '/\.tsx?$/',
+                loader: 'awesome-typescript-loader'
+            }
+        ]
+    }
 
  };
